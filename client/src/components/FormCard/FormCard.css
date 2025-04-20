@@ -3,6 +3,7 @@
     justify-content: center !important;
     align-items: center !important;
     padding-bottom: 15px !important;
+    z-index:99;
 }
 
 .card {
