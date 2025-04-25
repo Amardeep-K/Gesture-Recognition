@@ -223,7 +223,7 @@ const Video = () => {
       )}
 
       {/* Hand Gesture Canvas */}
-      <canvas ref={canvasRef} style={{ position: "fixed", zIndex: 10, width: "100%", right:"10"  }} />
+      <canvas ref={canvasRef} style={{ position: "fixed", zIndex: 10, width: "30%", right:"10"  }} />
       {emoji && <img src={images[emoji]} alt="emoji" style={{ position: "absolute", bottom: "10%", left: "10%", height:"100px"}} />}
 
       <ChatModal
